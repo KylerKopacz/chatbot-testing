@@ -49,7 +49,7 @@ def parse_message(data):
         msg = getSchedule()
     elif recievedMessage[0].lower().strip() == '!help':
         msg = '''
-BrotherBot v1.12.0 Commands:
+BrotherBot v1.13.0 Commands:
 
 "!Weather" - Get the current and future weather for Amherst College
 
