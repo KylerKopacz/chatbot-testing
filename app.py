@@ -59,6 +59,10 @@ BrotherBot v1.12.0 Commands:
 
 "!gng" - to get the Grab and Go Menu for the day
 
+"!setschedule <schedule>" - save a schedule
+
+"!schedule" - print out the saved schedule
+
 "!Help" - print out some help for using broterbot
     '''
 
