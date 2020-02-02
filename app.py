@@ -42,7 +42,6 @@ def parse_message(data):
     elif recievedMessage[0].lower().strip() == '!dinner':
         msg = getMeal('Dinner')
     elif recievedMessage[0].lower().strip() == '!gng':
-        # don't really do anything
         msg = getGNG()
     elif recievedMessage[0].lower().strip() == '!setschedule':
         msg = writeSchedule(recievedMessage)
@@ -141,7 +140,7 @@ def writeSchedule(messageList):
 
     return "Schedule successfully saved."
 
-def getSchedule()
+def getSchedule():
     if schedule_path.is_file():
         with open(schedule_path, 'r') as file:
             schedule = file.read()
